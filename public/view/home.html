@@ -1,0 +1,28 @@
+<body>
+<div>
+    <table class="table table-bordered table-hover">
+        <thead style="background-color: lightblue">
+        <tr>
+            <th ng-click="orderByMe('currentime')">Current Time</th>
+            <th ng-click="orderByMe('origin')">Origin</th>
+            <th ng-click="orderByMe('destination')">Destination</th>
+            <th ng-click="orderByMe('scheduleat')">Schedule At</th>
+            <th ng-click="orderByMe('delayedfor')">Delayed For</th>
+            <th ng-click="orderByMe('track')">Track#</th>
+            <th ng-click="orderByMe('currentstatus')">Current Status</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="trdata in dataAPI | orderBy: myOrderBy track by $index" ng-style="{'background-color': changeColor(trdata.currentstatus)}">
+                <td>{{trdata.currenttime}}</td>
+                <td>{{trdata.origin}}</td>
+                <td>{{trdata.destination}}</td>
+                <td>{{trdata.scheduleat}}</td>
+                <td>{{trdata.delayedfor}}</td>
+                <td>{{trdata.track}}</td>
+                <td >{{trdata.currentstatus}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>

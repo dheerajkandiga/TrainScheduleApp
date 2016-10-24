@@ -1,0 +1,47 @@
+[
+  {
+    "currenttime": 1234,
+    "origin": "newyork",
+    "destination": "prinston",
+    "scheduleat": 806,
+    "delayedfor": 0,
+    "track": 8,
+    "currentstatus": "ALLAboard"
+  },
+  {
+    "currenttime": 1234,
+    "origin": "newyork",
+    "destination": "trenton",
+    "scheduleat": "147361",
+    "delayedfor": 20,
+    "track": 8,
+    "currentstatus": "Ontime"
+  },
+  {
+    "currenttime": 1234,
+    "origin": "nj",
+    "destination": "dc",
+    "scheduleat": "147361",
+    "delayedfor": 250,
+    "track": 8,
+    "currentstatus": "Delay"
+  },
+  {
+    "currenttime": 1234,
+    "origin": "ny",
+    "destination": "trenton",
+    "scheduleat": "147361",
+    "delayedfor": 10,
+    "track": 8,
+    "currentstatus": "Boarding"
+  },
+  {
+    "currenttime": 3216354,
+    "origin": "newyork",
+    "destination": "trenton",
+    "scheduleat": "147361",
+    "delayedfor": 0,
+    "track": 8,
+    "currentstatus": "Delay"
+  }
+]
